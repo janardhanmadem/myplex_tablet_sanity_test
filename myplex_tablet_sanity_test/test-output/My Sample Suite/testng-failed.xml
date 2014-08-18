@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [My Sample Suite]">
+  <test name="myplex login test(failed)">
+    <classes>
+      <class name="com.apalya.login.facebook_login">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.apalya.login.facebook_login -->
+      <class name="com.apalya.browse_as_guest.browse_as_guest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.apalya.browse_as_guest.browse_as_guest -->
+      <class name="com.apalya.signup.signup">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.apalya.signup.signup -->
+      <class name="com.apalya.login.myplex_login_test">
+        <methods>
+          <include name="setUp"/>
+          <include name="testmyplex_login_scenario"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.apalya.login.myplex_login_test -->
+    </classes>
+  </test> <!-- myplex login test(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

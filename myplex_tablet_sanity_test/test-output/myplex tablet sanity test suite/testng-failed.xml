@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [myplex tablet sanity test suite]">
+  <test name="movie dtr content play test(failed)">
+    <classes>
+      <class name="com.apalya.browse_as_guest.browse_as_guest">
+        <methods>
+          <include name="before_test"/>
+        </methods>
+      </class> <!-- com.apalya.browse_as_guest.browse_as_guest -->
+      <class name="com.apalya.playcontent.bollywood_movie_dtr">
+        <methods>
+          <include name="content_play"/>
+        </methods>
+      </class> <!-- com.apalya.playcontent.bollywood_movie_dtr -->
+    </classes>
+  </test> <!-- movie dtr content play test(failed) -->
+  <test name="breaking news content play test(failed)">
+    <classes>
+      <class name="com.apalya.playcontent.breaking_news_play">
+        <methods>
+          <include name="breaking_new_play"/>
+        </methods>
+      </class> <!-- com.apalya.playcontent.breaking_news_play -->
+      <class name="com.apalya.browse_as_guest.browse_as_guest">
+        <methods>
+          <include name="before_test"/>
+        </methods>
+      </class> <!-- com.apalya.browse_as_guest.browse_as_guest -->
+    </classes>
+  </test> <!-- breaking news content play test(failed) -->
+</suite> <!-- Failed suite [myplex tablet sanity test suite] -->

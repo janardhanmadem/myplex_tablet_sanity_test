@@ -1,0 +1,93 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="myplex tablet sanity test suite">
+
+<test name="Browse as a guest test">
+    <classes>
+        <class name="com.apalya.browse_as_guest.browse_as_guest" ></class>  
+    </classes>
+</test>
+
+<test name="posting comments test">
+    <classes>
+        <class name="com.apalya.comments.livetv_comments" ></class>  
+    </classes>
+</test>
+
+<test name="movie favourites test">
+    <classes>
+        <class name="com.apalya.favorites.hollywood_movies_favorities" ></class>  
+    </classes>
+</test>
+
+<test name="livetv favourites test">
+    <classes>
+        <class name="com.apalya.favorites.livetv_favorities" ></class>  
+    </classes>
+</test>
+
+<test name="facebook login test">
+    <classes>
+        <class name="com.apalya.login.facebook_login" ></class>  
+    </classes>
+</test>
+
+<test name="myplex login test">
+    <classes>
+        <class name="com.apalya.login.myplex_login_test" ></class>  
+    </classes>
+</test>
+
+
+<test name="movie dtr content play test">
+    <classes>
+        <class name="com.apalya.playcontent.bollywood_movie_dtr" ></class>  
+    </classes>
+</test>
+
+
+<test name="breaking news content play test">
+    <classes>
+        <class name="com.apalya.playcontent.breaking_news_play" ></class>  
+    </classes>
+</test>
+
+<test name=" livetv content play test">
+    <classes>
+        <class name="com.apalya.playcontent.livetv_play" ></class>  
+    </classes>
+</test>
+
+<test name=" tvshow content play test">
+    <classes>
+        <class name="com.apalya.playcontent.tvshow_play_dtr" ></class>  
+    </classes>
+</test>
+
+<test name="livetv reviews posting test">
+    <classes>
+        <class name="com.apalya.reviews.livetv_reviews" ></class>  
+    </classes>
+</test>
+
+<test name="movies reviews posting test">
+    <classes>
+        <class name="com.apalya.reviews.movies_review" ></class>  
+    </classes>
+</test>
+
+<test name="normal tag search test">
+    <classes>
+        <class name="com.apalya.search.normal_search_tags" ></class>  
+    </classes>
+</test>
+
+
+<test name="signup test">
+    <classes>
+        <class name="com.apalya.signup.signup" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>
