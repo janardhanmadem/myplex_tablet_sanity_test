@@ -44,7 +44,7 @@ public class tvshow_play_dtr {
 				key.click_native("text=Don't ask again");
 				key.waitforelement_native("partial_text=continue", 30000);
 				key.click_native("text=continue");
-				key.sleep(40000);
+				key.sleep(50000);
 				key.click_native("xpath=//*[@id='carddetailtablet_videolayout']");
 				key.waitforelement_native("xpath=//*[@id='playpauseimage']", 10000);
 				key.iselement_found_native("xpath=//*[@id='playpauseimage']");

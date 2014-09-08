@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.apalya.playcontent.livetv_play">
+      <class name="com.apalya.playcontent.movie_trialer_play_check">
         <methods>
-          <include name="testlivetv_content_play"/>
+          <include name="movie_trialer"/>
         </methods>
-      </class> <!-- com.apalya.playcontent.livetv_play -->
+      </class> <!-- com.apalya.playcontent.movie_trialer_play_check -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

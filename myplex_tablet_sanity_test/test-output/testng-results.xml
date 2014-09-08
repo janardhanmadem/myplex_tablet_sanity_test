@@ -2,19 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66276" started-at="2014-08-11T12:47:17Z" finished-at="2014-08-11T12:48:23Z">
+  <suite name="Default suite" duration-ms="82068" started-at="2014-09-08T11:36:47Z" finished-at="2014-09-08T11:38:09Z">
     <groups>
-      <group name="seetest">
-        <method signature="livetv_play.testlivetv_content_play()[pri:0, instance:com.apalya.playcontent.livetv_play@4873e835]" name="testlivetv_content_play" class="com.apalya.playcontent.livetv_play"/>
-      </group> <!-- seetest -->
     </groups>
-    <test name="Default test" duration-ms="66276" started-at="2014-08-11T12:47:17Z" finished-at="2014-08-11T12:48:23Z">
-      <class name="com.apalya.playcontent.livetv_play">
-        <test-method status="PASS" signature="testlivetv_content_play()[pri:0, instance:com.apalya.playcontent.livetv_play@4873e835]" name="testlivetv_content_play" duration-ms="66263" started-at="2014-08-11T18:17:17Z" finished-at="2014-08-11T18:18:23Z">
+    <test name="Default test" duration-ms="82068" started-at="2014-09-08T11:36:47Z" finished-at="2014-09-08T11:38:09Z">
+      <class name="com.apalya.playcontent.movie_trialer_play_check">
+        <test-method status="PASS" signature="movie_trialer()[pri:0, instance:com.apalya.playcontent.movie_trialer_play_check@3eeec5b4]" name="movie_trialer" duration-ms="82054" started-at="2014-09-08T17:06:47Z" finished-at="2014-09-08T17:08:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlivetv_content_play -->
-      </class> <!-- com.apalya.playcontent.livetv_play -->
+        </test-method> <!-- movie_trialer -->
+      </class> <!-- com.apalya.playcontent.movie_trialer_play_check -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

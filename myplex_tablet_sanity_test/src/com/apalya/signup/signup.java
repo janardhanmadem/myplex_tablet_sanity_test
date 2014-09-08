@@ -15,12 +15,24 @@ public static keywords key=null;
      
       //Client De-registartion
       key=new keywords();
+   //   key.client_deregistration("adb:SM-T805",constants.app_id);
+   //   key.sent_text("{ESC}");
+  	//  key.sent_text("{ESC}");
+   //   key.app_clear_data(constants.app_id);
+     // key.sent_text("{ESC}");
+  	 // key.sent_text("{ESC}");
+     // key.sleep(3000);
+      //key.client_deregistration("adb:SM-T805",constants.app_id);
+     // key.sent_text("{ESC}");
+     // key.sent_text("{ESC}");
+      //key.app_clear_data(constants.app_id);
+      //key.sleep(3000);
       key.client_deregistration("adb:SM-T805",constants.app_id);
-      key.sleep(3000);
-      key.client_deregistration("adb:SM-T805",constants.app_id);
-      key.sleep(3000);
-      key.client_deregistration("adb:SM-T805",constants.app_id);
+      key.sent_text("{ESC}");
+  	  key.sent_text("{ESC}");
       key.app_clear_data(constants.app_id);
+     // key.client_deregistration("adb:SM-T805",constants.app_id);
+   //   key.app_clear_data(constants.app_id);
      //Test case started
       key.setup();
       key.open_app("adb:SM-T805", constants.app_id); 

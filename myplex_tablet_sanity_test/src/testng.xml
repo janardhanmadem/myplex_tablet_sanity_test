@@ -57,6 +57,17 @@
     </classes>
 </test>
 
+<test name="movie trial play test">
+    <classes>
+        <class name="com.apalya.playcontent.movie_trialer_play_check" ></class>  
+    </classes>
+</test>
+<test name="tv show trialer play test">
+    <classes>
+        <class name="com.apalya.playcontent.tvshow_trialer_play_check" ></class>  
+    </classes>
+</test>
+
 <test name=" tvshow content play test">
     <classes>
         <class name="com.apalya.playcontent.tvshow_play_dtr" ></class>  
@@ -78,6 +89,12 @@
 <test name="normal tag search test">
     <classes>
         <class name="com.apalya.search.normal_search_tags" ></class>  
+    </classes>
+</test>
+
+<test name="wallet subscription test">
+    <classes>
+        <class name="com.apalya.subscriptions.wallet_subscription" ></class>  
     </classes>
 </test>
 

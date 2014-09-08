@@ -22,8 +22,8 @@ public class browse_as_guest {
       key.client_deregistration("adb:SM-T805",constants.app_id);
       key.client_deregistration("adb:SM-T805",constants.app_id);
       key.sleep(3000);
-      key.client_deregistration("adb:SM-T805","com.apalya.myplex/.LoginActivity");
-      key.app_clear_data("com.apalya.myplex/.LoginActivity");
+      key.client_deregistration("adb:SM-T805",constants.app_id);
+      key.app_clear_data(constants.app_id);
      
       //test case execution started
       key.open_app("adb:SM-T805","com.apalya.myplex/.LoginActivity");

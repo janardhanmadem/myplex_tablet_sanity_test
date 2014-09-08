@@ -16,11 +16,11 @@ public class facebook_login {
 	 
       //Deregestration success
       key=new keywords();
-      key.client_deregistration("adb:SM-T805",constants.app_id);
-      key.client_deregistration("adb:SM-T805",constants.app_id);
-      key.sleep(3000);
-      key.client_deregistration("adb:SM-T805",constants.app_id);
-      key.app_clear_data(constants.app_id);
+    //  key.client_deregistration("adb:SM-T805",constants.app_id);
+    // key.client_deregistration("adb:SM-T805",constants.app_id);
+     // key.sleep(3000);
+    //  key.client_deregistration("adb:SM-T805",constants.app_id);
+     // key.app_clear_data(constants.app_id);
       key.setup();
       key.open_app("adb:SM-T805", constants.app_id);
       //test case started
